@@ -85,3 +85,6 @@ gitpush() {
     git push
 }
 alias gp=gitpush
+
+alias rustscan='docker run -it --rm --name rustscan rustscan/rustscan:alpine  rustscan'
+alias toolkit='docker run -it --name hackersploit/bugbountytoolkit /bin/bash/'
