@@ -92,3 +92,5 @@ alias ymp3='youtube-dl --extract-audio --audio-format mp3'
 # New aliases
 alias rustscan='docker run -it --rm --name rustscan rustscan/rustscan:alpine  rustscan'
 alias toolkit='docker run -it --name hackersploit/bugbountytoolkit /bin/bash/'
+alias upgrade='sudo apt upgrade'
+alias update='sudo apt update'
