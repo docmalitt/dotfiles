@@ -85,6 +85,10 @@ gitpush() {
     git push
 }
 alias gp=gitpush
+# Sudo aliases
+alias please='sudo'
+alias fucking='sudo'
+alias _i='sudo -i'
 
 # youtube-dl
 alias ymp3='youtube-dl --extract-audio --audio-format mp3'
