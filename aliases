@@ -93,6 +93,10 @@ alias _i='sudo -i'
 # youtube-dl
 alias ymp3='youtube-dl --extract-audio --audio-format mp3'
 
+# rsync
+alias articles="rsync -av --dry-run /media/doc/DATA1/SHARED/Articles/* ~/pCloudDrive/Articles"
+alias articles-sync="rsync -av /media/doc/DATA1/SHARED/Articles/* ~/pCloudDrive/Articles"
+
 # New aliases
 alias rustscan='docker run -it --rm --name rustscan rustscan/rustscan:alpine  rustscan'
 alias toolkit='docker run -it --name hackersploit/bugbountytoolkit /bin/bash/'
